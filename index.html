@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ketan Dixit | Portfolio</title>
+    <meta name="description" content="Portfolio of Ketan Dixit, a Full-Stack Developer and B.Tech CSE student.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+    <div class="blob-bg blob-3"></div>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#hero" class="logo">KD<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section-reveal">
+            <div class="hero-content">
+                <h2 class="greeting">Hi there, I'm</h2>
+                <h1 class="name">Ketan Dixit</h1>
+                <h3 class="role">Full-Stack Developer <span class="typing-text"></span></h3>
+                <p class="summary">B.Tech Computer Science & Engineering student passionate about building scalable, secure, and production-ready web applications using the MERN stack.</p>
+                <div class="social-links">
+                    <a href="https://github.com/ketandixit6307" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/ketan-dixit-364992316" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:ketandixit192@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">View My Work</a>
+                    <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="glass-panel">
+                    <div class="code-snippet">
+                        <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">"Ketan Dixit"</span>,
+  <span class="property">role</span>: <span class="string">"Full-Stack Dev"</span>,
+  <span class="property">skills</span>: [<span class="string">"Node.js"</span>, <span class="string">"React"</span>, <span class="string">"MongoDB"</span>],
+  <span class="property">passion</span>: <span class="string">"System Design"</span>
+};</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section-reveal">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container glass-card">
+                <p>I am a final year <strong>B.Tech Computer Science and Engineering</strong> student with hands-on experience building full-stack web applications. My proficiency lies in backend development with Node.js, Express.js, and MongoDB, and I am steadily growing my expertise in Python, FastAPI, PostgreSQL, and React.js/Next.js.</p>
+                <p>I specialize in building production-level systems featuring secure authentication, role-based access control, and robust RESTful APIs. I have a strong passion for system design, performance optimization, and deploying scalable applications that solve real-world problems.</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section-reveal">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-card">
+                    <i class="fas fa-code category-icon"></i>
+                    <h3>Languages & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span>Node.js</span><span>Express.js</span><span>Python</span><span>FastAPI</span><span>Java</span><span>React.js</span><span>Next.js</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <i class="fas fa-database category-icon"></i>
+                    <h3>Databases</h3>
+                    <div class="skill-tags">
+                        <span>MongoDB</span><span>Mongoose</span><span>PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <i class="fas fa-laptop-code category-icon"></i>
+                    <h3>Frontend & Styling</h3>
+                    <div class="skill-tags">
+                        <span>React.js</span><span>Next.js</span><span>Tailwind CSS</span><span>HTML5</span><span>CSS3</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <i class="fas fa-server category-icon"></i>
+                    <h3>System Design</h3>
+                    <div class="skill-tags">
+                        <span>RESTful APIs</span><span>Message Queues</span><span>Caching</span><span>Background Workers</span><span>MVC</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <i class="fas fa-shield-alt category-icon"></i>
+                    <h3>Security</h3>
+                    <div class="skill-tags">
+                        <span>JWT</span><span>RBAC</span><span>Input Validation</span><span>Secure API Design</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card">
+                    <i class="fas fa-tools category-icon"></i>
+                    <h3>DevOps & Tools</h3>
+                    <div class="skill-tags">
+                        <span>Git</span><span>GitHub</span><span>Vercel</span><span>Render</span><span>Postman</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section-reveal">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-cards">
+                <!-- Project 1 -->
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <i class="fas fa-chart-line project-icon"></i>
+                        <div class="project-header-right">
+                            <a href="https://github.com/ketandixit6307" target="_blank" class="github-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <span class="project-date">Apr 2026</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Finance Data Control & Processing System</h3>
+                    <div class="project-tech">
+                        <span>Node.js</span><span>Express</span><span>MongoDB</span><span>JWT</span>
+                    </div>
+                    <ul class="project-details">
+                        <li>Architected a role-based backend system for financial data management with secure REST APIs.</li>
+                        <li>Implemented CRUD operations, advanced transaction filtering, and JWT-based authentication with RBAC.</li>
+                        <li>Integrated input validation and security checks to ensure production-level data integrity.</li>
+                    </ul>
+                </div>
+                          <!-- Project 2-->
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <i class="fas fa-chart-line project-icon"></i>
+                        <div class="project-header-right">
+                            <a href="https://github.com/ketandixit6307" target="_blank" class="github-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <span class="project-date">June 2026</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Finanace Fraud Detection System</h3>
+                    <div class="project-tech">
+                        <span>Python</span><span>Flask</span><span>Scikit-learn</span><span>Express</span>
+                    </div>
+                    <ul class="project-details">
+                        <li>Built a machine learning model for detecting fraudulent financial transactions.</li>
+                        <li>Performing data preprocessing and feature engineering for model training.</li>
+                        <li>Achieved Accurate Fraud Detection using Classification Algorithms And Performance Metrices</li>
+                    </ul>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <i class="fas fa-hospital-user project-icon"></i>
+                        <div class="project-header-right">
+                            <a href="https://github.com/ketandixit6307" target="_blank" class="github-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <span class="project-date">Jan 2026</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Online OPD Management System</h3>
+                    <div class="project-tech">
+                        <span>Full-Stack</span><span>REST APIs</span><span>Payment</span>
+                    </div>
+                    <ul class="project-details">
+                        <li>Developed a full-stack system supporting patient registration, doctor scheduling, and digital prescriptions.</li>
+                        <li>Implemented role-based access for Admin, Doctor, and Patient roles with secure authentication.</li>
+                        <li>Designed RESTful APIs with applied security best practices throughout the application.</li>
+                    </ul>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <i class="fas fa-building project-icon"></i>
+                        <div class="project-header-right">
+                            <a href="https://github.com/ketandixit6307" target="_blank" class="github-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <span class="project-date">Dec 2025</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Accommodation Booking Platform</h3>
+                    <div class="project-tech">
+                        <span>Full-Stack</span><span>Workflows</span><span>Security</span>
+                    </div>
+                    <ul class="project-details">
+                        <li>Built an Airbnb-style platform with property listings, search, and secure user authentication.</li>
+                        <li>Implemented host/guest roles, pricing logic, and a secure payment integration pipeline.</li>
+                        <li>Deployed with a production-ready backend, applying input sanitisation and authorisation checks.</li>
+                    </ul>
+                </div>
+                <!-- Project 5 -->
+                <div class="project-card glass-card">
+                    <div class="project-header">
+                        <i class="fas fa-user-circle project-icon"></i>
+                        <div class="project-header-right">
+                            <a href="https://github.com/ketandixit6307" target="_blank" class="github-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <span class="project-date">Feb 2026</span>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Personal Portfolio Website</h3>
+                    <div class="project-tech">
+                        <span>HTML</span><span>CSS</span><span>JS</span>
+                    </div>
+                    <ul class="project-details">
+                        <li>Developed a modern, responsive personal portfolio website showcasing projects and technical skills.</li>
+                        <li>Implemented custom UI/UX using vanilla web technologies with glassmorphism aesthetics.</li>
+                        <li>Integrated smooth animations and hosted for live deployment.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education & Achievements Section -->
+        <section id="education" class="education section-reveal">
+            <h2 class="section-title">Education & Achievements</h2>
+            <div class="edu-grid">
+                <div class="edu-card glass-card">
+                    <i class="fas fa-graduation-cap edu-icon"></i>
+                    <h3>Bachelor of Technology (CSE)</h3>
+                    <p class="institution">Dr. APJ Abdul Kalam Technical University</p>
+                    <p class="duration">2023 &ndash; 2027</p>
+                </div>
+                <div class="edu-card glass-card">
+                    <i class="fas fa-school edu-icon"></i>
+                    <h3>Intermediate (Class XII)</h3>
+                    <p class="institution">Study Well Public School, Sitapur</p>
+                    <p class="duration">2022 &ndash; 2023</p>
+                </div>
+                <div class="edu-card glass-card achievements">
+                    <i class="fas fa-award edu-icon"></i>
+                    <h3>Certifications</h3>
+                    <ul class="cert-list">
+                        <li><strong>TCS iON</strong> &mdash; Yuva AI For All Certification (Feb 2026)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-reveal">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-container glass-card">
+                <p class="contact-text">I'm currently open for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                <div class="contact-info">
+                    <a href="mailto:ketandixit192@gmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i> ketandixit192@gmail.com
+                    </a>
+                    <a href="tel:+916307563341" class="contact-item">
+                        <i class="fas fa-phone-alt"></i> +91-6307563341
+                    </a>
+                </div>
+                <a href="mailto:ketandixit192@gmail.com" class="btn primary-btn large-btn">Say Hello</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed & Built by <span class="highlight">Ketan Dixit</span> &copy; 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
